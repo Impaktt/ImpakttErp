@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/techorg/public_html
+    - export DEPLOYPATH=/home/techorg/public_html/
     - /bin/cp -r * $DEPLOYPATH
