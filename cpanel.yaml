@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/techorg/repositories/ImpakttErp
+    - /bin/cp -r * $DEPLOYPATH
